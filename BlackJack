@@ -2,10 +2,10 @@ import java.util.Random;   // imports utilities
 import java.util.Scanner;
 
 public class PlayTwentyOne {
-	private static Random rand = new Random();   // new variables for utilities
-	private static Scanner inp = new Scanner(System.in);
+	public static Random rand = new Random();   // new variables for utilities
+	public static Scanner inp = new Scanner(System.in);
 	
-	private int getCard(int card, boolean isDealer) {   // generates cards from 2 to 10 or ace
+	public int getCard(int card, boolean isDealer) {   // generates cards from 2 to 10 or ace
 		if (rand.nextInt(13) == 0 && isDealer == false) {   // accurate probability for ace
 			System.out.print("You received an Ace card! 1 or 11? ");
 			
