@@ -1,1 +1,1 @@
-# for little games
+# for the little things
